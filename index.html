@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liking Likes Part 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="navbar">Network</h1>
+        <h1 class="feed">Your Feed</h1>
+        <div class="row">
+            <div class="col-1">
+                <div class="picbox">
+                    <img src="images/user-circle.png" alt="avatar picture">
+                    <p><a href="#">Add an avatar</a></p>
+                    <h1>James Doe</h1>
+                </div>
+            </div>
+            <div class="col-2">
+                <div class="lineup">
+                    <div class="likebox">
+                        <h1>Neil M</h1>
+                        <div class="likes">
+                            <span id="numlikes">0 </span> like(s)
+                            <button onclick="like('#numlikes')" class="likesbtn">Like</button>
+                        </div>
+                    </div> 
+                    <p>I just set up this new discord bot, let me know what you all think. <a href="$">link</a></p>
+                </div> 
+                <div class="lineup">
+                    <div class="likebox">
+                        <h1>Nichole K</h1>
+                        <div class="likes">
+                            <span id="num2likes">0</span> like(s)
+                            <button onclick="like('#num2likes')" class="likesbtn">Like</button>
+                        </div>
+                    </div>  
+                    <p>Just finished my <a href="#">next comic,</a> check it out.</p>
+                </div>
+                <div class="lineup"> 
+                    <div class="likebox">
+                        <h1>Jim R</h1>
+                        <div class="likes">
+                            <span id="num3likes">0</span> like(s)
+                            <button onclick="like('#num3likes')" class="likesbtn">Like</button>
+                        </div>
+                    </div>   
+                    <p>I can't stop listening to the <a href="#">new album.</a> Who else is liking it?</p>
+                </div> 
+            </div>
+        </div>
+    </div>
+        
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- The div class "likes" is used for nothing more than as a means to separate the name from the other two elements in those boxes. -->
